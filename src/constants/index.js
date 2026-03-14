@@ -38,44 +38,80 @@ const performanceImages = [
     { id: "p7", src: "/performance7.png" },
 ];
 
+// const performanceImgPositions = [
+//     {
+//         id: "p1",
+//         left: 5,
+//         bottom: 65,
+//     },
+//     {
+//         id: "p2",
+//         right: 8,
+//         bottom: 60,
+//     },
+//     {
+//         id: "p3",
+//         right: -5,
+//         bottom: 45,
+//     },
+//     {
+//         id: "p4",
+//         right: -10,
+//         bottom: 0,
+//     },
+//     {
+//         id: "p5",
+//         left: 20,
+//         bottom: 50,
+//     },
+//     {
+//         id: "p6",
+//         left: 2,
+//         bottom: 30,
+//     },
+//     {
+//         id: "p7",
+//         left: -5,
+//         bottom: 0,
+//     },
+// ];
 const performanceImgPositions = [
-    {
-        id: "p1",
-        left: 5,
-        bottom: 65,
-    },
-    {
-        id: "p2",
-        right: 10,
-        bottom: 60,
-    },
-    {
-        id: "p3",
-        right: -5,
-        bottom: 45,
-    },
-    {
-        id: "p4",
-        right: -10,
-        bottom: 0,
-    },
-    {
-        id: "p5",
-        left: 20,
-        bottom: 50,
-    },
-    {
-        id: "p6",
-        left: 2,
-        bottom: 30,
-    },
-    {
-        id: "p7",
-        left: -5,
-        bottom: 0,
-    },
+  {
+    id: "p1",
+    left: -12,
+    bottom: 72,
+  },
+  {
+    id: "p2",
+    right: -12,
+    bottom: 72,
+  },
+  {
+    id: "p3",
+    right: -18,
+    bottom: 48,
+  },
+  {
+    id: "p4",
+    right: -22,
+    bottom: -8,
+  },
+  {
+    id: "p5",
+    left: 20,
+    bottom: 50,
+  },
+  {
+    id: "p6",
+    left: -18,
+    bottom: 30,
+  },
+  {
+    id: "p7",
+    left: -22,
+    bottom: -8,
+  },
 ];
-
 const features = [
     {
         id: 1,

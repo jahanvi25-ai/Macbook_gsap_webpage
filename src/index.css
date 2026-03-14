@@ -238,15 +238,15 @@ body {
       }
 
       .p1 {
-        @apply absolute bottom-1/2 left-[23%] z-[1] max-sm:left-[33%];
+        @apply absolute opacity-50  bottom-1/2 left-[23%] z-[1] max-sm:left-[33%];
       }
 
       .p2 {
-        @apply absolute bottom-[40%] right-[17%] z-[3] max-sm:right-[37%];
+        @apply absolute opacity-50 bottom-[40%] right-[17%] z-[3] max-sm:right-[37%];
       }
 
       .p3 {
-        @apply absolute bottom-1/4 right-[15%] z-[2] max-sm:right-[35%];
+        @apply absolute  bottom-1/4 right-[15%] z-[2] max-sm:right-[35%];
       }
 
       .p4 {
@@ -258,11 +258,11 @@ body {
       }
 
       .p6 {
-        @apply absolute bottom-1/4 left-1/4 z-[2] max-sm:left-[35%];
+        @apply absolute  bottom-1/4 left-1/4 z-[3] max-sm:left-[35%];
       }
 
       .p7 {
-        @apply absolute bottom-[5%] left-[15%] z-[3] max-sm:left-[35%];
+        @apply absolute  bottom-[5%] left-[15%] z-[2] max-sm:left-[35%];
       }
     }
 
