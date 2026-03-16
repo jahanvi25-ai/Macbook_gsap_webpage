@@ -1,16 +1,50 @@
-# React + Vite
+# Apple MacBook Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Apple-inspired MacBook landing page with smooth animations and interactive visuals.  
+The page showcases the MacBook using 3D models, scroll animations, and a clean UI layout.
 
-Currently, two official plugins are available:
+# preview
+- /macPage.png
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- GSAP (for scroll animations)
+- Three.js / React Three Fiber (for 3D models)
+- Zustand (for state management)
+- Tailwind CSS (for styling)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Smooth scroll animations using GSAP
+- Interactive 3D MacBook model
+- Apple-style UI design
+- Responsive layout
 
-## Expanding the ESLint configuration
+## Main Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Navbar
+- Hero Section
+- Performance Section
+- Highlights Section
+- Features Section
+- Footer
+
+Each section presents different aspects of the MacBook with animations and visual effects.
+
+# Folder Structure
+src
+ ├─ components
+ ├─ sections
+ ├─ assets
+ ├─ store
+ └─ App.jsx
+ 
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/jahanvi25-ai/Macbook_gsap_webpage
+cd macbook-landing-page
+npm install
+npm run dev
